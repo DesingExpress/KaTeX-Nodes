@@ -1,5 +1,5 @@
 {
-  "name": "@user/katex",
+  "name": "@NEXIVIL/katex",
   "version": "0.1.0",
   "private": false,
   "description": "",
@@ -8,7 +8,10 @@
     "build"
   ],
   "dependencies": {
-    "@design-express/node-scripts": "1.0.7"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@design-express/node-scripts": "1.0.7",
+    "handlebars": "^4.7.8",
+    "katex": "^0.16.8"
   },
   "scripts": {
     "start": "node-scripts start",
